@@ -1,0 +1,96 @@
+.brandname{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+/* Required for full background image */
+
+html,
+body,
+header,
+.view {
+  height: 100%;
+}
+
+/* @media (max-width: 740px) {
+  html,
+  body,
+  header,
+  .view {
+    height: 1000px;
+  }
+}
+@media (min-width: 800px) and (max-width: 850px) {
+  html,
+  body,
+  header,
+  .view {
+    height: 600px;
+  }
+} */
+
+/* .btn .fa {
+  margin-left: 3px;
+}
+
+.top-nav-collapse {
+  background-color: #424f95 !important;
+}
+
+.navbar:not(.top-nav-collapse) {
+  background: transparent !important;
+}
+
+@media (max-width: 991px) {
+  .navbar:not(.top-nav-collapse) {
+    background: #424f95 !important;
+  }
+}
+
+.btn-white {
+  color: black !important;
+}
+
+h6 {
+  line-height: 1.7;
+} */
+
+.rgba-gradient {
+  background: -moz-linear-gradient(45deg, rgba(42, 27, 161, 0.7), rgba(29, 210, 177, 0.7) 100%);
+  background: -webkit-linear-gradient(45deg, rgba(244, 244, 247, 0.1), rgba(244, 245, 245, 0.1) 100%);
+  background: -webkit-gradient(linear, 45deg, from(rgba(42, 27, 161, 0.7)), to(rgba(29, 210, 177, 0.7)));
+  background: -o-linear-gradient(45deg, rgba(42, 27, 161, 0.7), rgba(29, 210, 177, 0.7) 100%);
+  background: linear-gradient(to 45deg, rgba(42, 27, 161, 0.7), rgba(29, 210, 177, 0.7) 100%);
+}
+
+.sketchfab-embed-wrapper{
+  width: 100px;
+  height: 100px;
+}
+
+.nav-item{
+  align-self: center;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  padding: 0px 10px;
+  font-size: 20px;
+}
+
+.fa-external-link{
+  color: rgb(224, 208, 208)
+}
+
+.background-change{
+  background-color: rgb(67, 57, 212);
+}
+
+.background-initial{
+  background-color: rgba(219, 48, 48, 1);
+}
+.brand{
+  font-size: 40px;
+}
+.oval{
+  border-radius: 10px;
+  font-weight: bold;
+  font-size: 1rem !important;
+}
